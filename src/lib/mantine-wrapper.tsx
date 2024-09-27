@@ -9,7 +9,7 @@ import { ModalsProvider } from "@mantine/modals";
 import { Notifications } from "@mantine/notifications";
 import { NavigationProgress } from "@mantine/nprogress";
 
-import theme from "../config/theme";
+import theme from "~/config/theme";
 
 interface MantineWrapperProps {
   children?: React.ReactNode;
@@ -20,7 +20,7 @@ export default function MantineWrapper({ children }: MantineWrapperProps) {
     <MantineProvider theme={theme}>
       <Notifications />
       <NavigationProgress />
-      <ModalsProvider>
+      <ModalsProvider modals={{}}>
         <DatesProvider settings={{}}>{children}</DatesProvider>
       </ModalsProvider>
     </MantineProvider>
