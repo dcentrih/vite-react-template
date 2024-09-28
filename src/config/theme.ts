@@ -1,8 +1,4 @@
-import {
-  createTheme,
-  DEFAULT_THEME,
-  mergeMantineTheme
-} from "@mantine/core";
+import { createTheme, DEFAULT_THEME, mergeMantineTheme } from "@mantine/core";
 
 const theme = createTheme({});
 

@@ -17,9 +17,17 @@
     "@mantine/modals": "^7.13.0",
     "@mantine/notifications": "^7.13.0",
     "@mantine/nprogress": "^7.13.0",
+    "@mantine/tiptap": "^7.13.0",
+    "@tiptap/extension-link": "^2.7.4",
+    "@tiptap/pm": "^2.7.4",
+    "@tiptap/react": "^2.7.4",
+    "@tiptap/starter-kit": "^2.7.4",
+    "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
+    "mantine-datatable": "^7.12.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
