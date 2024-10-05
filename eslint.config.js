@@ -38,6 +38,10 @@ export default tseslint.config(
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
       ],
+      "react-refresh/only-export-components": [
+        "warn",
+        { allowExportNames: ["meta", "links", "headers", "loader", "action"] },
+      ],
     },
   },
 );
